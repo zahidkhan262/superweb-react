@@ -1,0 +1,33 @@
+// npx create-react-app appname
+// nodemodule all packages
+// public ==> index.html ===> root
+// package.json ===> builtin and external npm packge version deatils
+// package-lock.json ===> builtin and external npm packge version integrity deatils
+
+//src => index.js ====> root append root.render => App component
+App.js =====> index.js import
+App.css ====> external css file
+
+
+.js vs .jsx ==========>>>
+
+pure javascript code | js with html and css
+
+-----------------------------------------
+babel work ==> transpiler conver modern js (jsx) code into old js code for compitible all browser
+
+----------------------------------------------
+                Header(layout)
+----------------------------------------------
+    |
+  S |
+  I |        Dynamic pages (pages)
+  D |
+  E |
+  B |
+  A |
+  R |
+    |
+----------------------------------------------
+                FOOTER(layout)
+----------------------------------------------
